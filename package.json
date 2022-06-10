@@ -2,10 +2,8 @@
   "name": "phooks",
   "version": "1.0.0",
   "description": "",
-  "exports": {
-    "import": "./dist/index.js",
-    "types": "./dist/index.d.ts"
-  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && webpack",
     "format": "prettier --write \"./src/**/*.ts\"",
